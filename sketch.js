@@ -46,6 +46,8 @@ function setup() {
 
 function draw() {
   background(0);
+  
+  //base
   push();
   tint(255, random(50, 100));
   image(base, 0, 0, width, height);
