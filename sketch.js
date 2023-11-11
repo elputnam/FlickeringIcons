@@ -37,7 +37,7 @@ function preload(){
 function setup() {
   createCanvas(base.width/2, base.height/2);
   colorMode(HSB, 360, 100, 100, 100);
-  frameRate(8);
+  frameRate(7);
   rectMode(CENTER);
   for (let i=0; i < 500; i++){
     lanework[i] = new Lane(random(width), random(height), random(10,50), random(-20, 20), random(-20, 20), 1);
